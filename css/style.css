@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    font-family: Raleway;
+    color: #333;
+    margin: 0;
+}
+
+.conteiner {
+    width: 1600px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo {
+    float: left;
+    font-size: 30px;
+    color: blue;
+}
+nav ul {
+    list-style: none;
+    display :flex ;
+    gap: 70px;
+    justify-content: flex-end;
+    font-family: Inter ;
+}
+
+.services {
+   text-align: center; 
+   padding: 60px 20px; 
+}
+
+.button-warp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.server {
+    list-style: none;
+    display :flex ;
+    gap: 70px;
+    justify-content: flex-end;
+    font-family: Inter ;
+}
+
+.servers {
+    list-style: none;
+    display :flex ;
+    gap: 70px;
+    justify-content: flex-end;
+    font-family: Inter ;  
+}

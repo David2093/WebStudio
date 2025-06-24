@@ -38,18 +38,34 @@ nav ul {
 }
 
 
-.server {
-    list-style: none;
-    display :flex ;
-    gap: 70px;
-    justify-content: flex-end;
-    font-family: Inter ;
+.welcome {
+text-align: center;
 }
 
+
+.service-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 40px; 
+}
+
+.contact{
+    text-align: center;
+}
+ 
+
+.server {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 40px; 
+}
+
+
 .servers {
-    list-style: none;
-    display :flex ;
-    gap: 70px;
-    justify-content: flex-end;
-    font-family: Inter ;  
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 40px; 
 }

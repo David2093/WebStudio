@@ -55,17 +55,3 @@ text-align: center;
 }
  
 
-.server {
-    display: flex;
-    justify-content: center;
-    gap: 90px;
-    margin-top: 40px; 
-}
-
-
-.servers {
-    display: flex;
-    justify-content: center;
-    gap: 90px;
-    margin-top: 40px; 
-}

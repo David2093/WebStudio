@@ -55,3 +55,70 @@ text-align: center;
 }
  
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.hero {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.hero button {
+  margin-top: 20px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+
+.features-list li {
+  flex: 1 1 calc(25% - 20px);
+}
+
+.services .service-boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.member {
+  flex: 1 1 calc(25% - 20px);
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}

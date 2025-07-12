@@ -68,13 +68,31 @@ text-align: center;
   list-style: none;
 }
 
+.email {
+  color: blue;
+}
+
 .hero {
   text-align: center;
   margin: 50px 0;
+  padding: 75px;
+  border: 1px;
+  border-radius: 4px;
+  background-color: #2F303A;
+  color: #FFFFFF;
+  
 }
 
 .hero button {
   margin-top: 20px;
+  background-color: #2196f3;
+  color: white; 
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .features-list {
@@ -98,13 +116,18 @@ text-align: center;
 .team-members {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 20px;
-  width: 50px;
+ 
 }
 
 .member {
   flex: 1 1 calc(25% - 20px);
   text-align: center;
+}
+
+img {
+  width: 250px;
 }
 
 .footer {

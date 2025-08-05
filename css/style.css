@@ -14,9 +14,14 @@ body {
 }
 
 .logo {
-    float: left;
-    font-size: 30px;
-    color: blue;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.logo-blue {
+  color: #2196f3;
 }
 
 
@@ -61,19 +66,60 @@ text-align: center;
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 50px;
 }
 
 .nav-list {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.contact {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;  
+}
+
+.phone {
+  display: flex;
+  justify-content: flex-end;  
 }
 
 .email {
-  color: blue;
+  display: flex;
+  justify-content: flex-end;
 }
+
+.contact a {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 500;  
+}
+
+.contact a:hover {
+  color: #2196f3;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 500;
+}
+
+.nav-list a:hover {
+  color: #2196f3;
+}
+
+
 
 .hero {
   text-align: center;
@@ -119,7 +165,6 @@ text-align: center;
 
 .services .service-boxes {
   display: flex;
-  justify-content: space-between;
   gap: 20px;
 }
 
@@ -127,6 +172,7 @@ text-align: center;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  text-decoration: none;
   gap: 20px;
  
 }
@@ -149,6 +195,18 @@ img {
   background-color:#2F303A;
   border-radius: 4px;
 }
+
+.logo-text {
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.logo-blue-text {
+  color:#2196f3 ;
+}
+
 
 .footer ul {
 list-style: none;

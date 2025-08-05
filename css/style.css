@@ -18,6 +18,8 @@ body {
     font-size: 30px;
     color: blue;
 }
+
+
 nav ul {
     list-style: none;
     display :flex ;
@@ -64,6 +66,7 @@ text-align: center;
 
 .nav-list {
   display: flex;
+  justify-content: flex-start;
   gap: 20px;
   list-style: none;
 }

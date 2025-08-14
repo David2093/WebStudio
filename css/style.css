@@ -90,7 +90,6 @@ text-align: center;
 }
 
 
-
 .contact a {
   text-decoration: none;
   color: #212121;
@@ -119,7 +118,7 @@ text-align: center;
   padding: 75px;
   border: 1px;
   border-radius: 4px;
-  background-color: #2F303A;
+  background-image: linear-gradient(#2F303A,#FFFFFF);
   color: #FFFFFF;
 }
 

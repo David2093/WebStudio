@@ -1,16 +1,16 @@
 body {
-    background-color: white;
-    font-family: Raleway;
-    color: #333;
-    margin: 0;
+  background-color: white;
+  font-family: Raleway;
+  color: #333;
+  margin: 0;
 }
 
 .conteiner {
-    width: 1600px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  width: 1600px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .logo {
@@ -26,36 +26,36 @@ body {
 
 
 nav ul {
-    list-style: none;
-    display :flex ;
-    gap: 70px;
-    justify-content: flex-end;
-    font-family: Inter ;
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  justify-content: flex-end;
+  font-family: Inter;
 }
 
 .services {
-   text-align: center; 
-   padding: 60px 20px; 
+  text-align: center;
+  padding: 60px 20px;
 }
 
 
 
 .welcome {
-text-align: center;
+  text-align: center;
 }
 
 
 .service-boxes {
-    display: flex;
-    justify-content: center;
-    gap: 90px;
-    margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 40px;
 }
 
-.contact{
-    text-align: center;
+.contact {
+  text-align: center;
 }
- 
+
 
 .container {
   max-width: 1200px;
@@ -86,14 +86,14 @@ text-align: center;
   gap: 30px;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;  
+  font-family: sans-serif;
 }
 
 
 .contact a {
   text-decoration: none;
   color: #212121;
-  font-weight: 500;  
+  font-weight: 500;
 }
 
 .contact a:hover {
@@ -118,14 +118,14 @@ text-align: center;
   padding: 75px;
   border: 1px;
   border-radius: 4px;
-background-color: #2F303A;
+  background-color: #2F303A;
   color: #FFFFFF;
 }
 
 
 
 .text {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -133,7 +133,7 @@ background-color: #2F303A;
 .hero button {
   margin-top: 20px;
   background-color: #2196f3;
-  color: white; 
+  color: white;
   padding: 10px 25px;
   border: none;
   border-radius: 4px;
@@ -165,17 +165,17 @@ background-color: #2F303A;
   flex-wrap: wrap;
   text-decoration: none;
   gap: 20px;
- 
+
 }
 
 .member {
   flex: 1 1 calc(25% - 20px);
   text-align: center;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12);
-  border-radius:  4px;
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 img {
@@ -183,7 +183,7 @@ img {
 }
 
 .footer {
-  background-color:#2F303A;
+  background-color: #2F303A;
   border-radius: 4px;
 }
 
@@ -195,14 +195,14 @@ img {
 }
 
 .logo-blue-text {
-  color:#2196f3 ;
+  color: #2196f3;
 }
 
 
 .footer ul {
-list-style: none;
-padding: 0;
-margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .list-item {
@@ -215,11 +215,11 @@ margin: 0;
   gap: 20px;
   flex-wrap: wrap;
   list-style: none;
-  padding: 20px;     
-  margin: 0 auto;    
-  width: 100%;       
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
   max-width: 1170px;
-  min-height: 184px;   
+  min-height: 184px;
 }
 
 .client li {
@@ -229,9 +229,10 @@ margin: 0;
 }
 
 .client img {
-  max-width: 120px; 
+  max-width: 120px;
   height: auto;
 }
+
 .mega {
   display: flex;
   justify-content: center;
@@ -239,14 +240,14 @@ margin: 0;
 }
 
 .social {
-  display: flex ;
+  display: flex;
   justify-content: center;
   color: #FFFFFF;
   position: relative;
   bottom: 110px;
   right: 175px;
-  
-  
+
+
 }
 
 .network {
@@ -255,7 +256,7 @@ margin: 0;
   list-style: none;
   margin-top: 40px;
   padding: 0;
-  justify-content:center;
+  justify-content: center;
   position: relative;
   bottom: 90px;
   right: 175px;
@@ -277,7 +278,7 @@ margin: 0;
 }
 
 .work {
-  display:flex;
+  display: flex;
   justify-content: center;
   gap: 20px;
 }
@@ -286,11 +287,11 @@ margin: 0;
   width: 250px;
   height: 50px;
   position: relative;
-  top:-50px;
-  bottom:0;
-  left:1px;
-  right:0;
-  background-color: rgba(0, 0, 0, 0.6); 
+  top: -50px;
+  bottom: 0;
+  left: 1px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   text-align: center;
   padding: 15px;
@@ -300,11 +301,11 @@ margin: 0;
   width: 250px;
   height: 50px;
   position: relative;
-  top:-50px;
-  bottom:0;
-  left:1px;
-  right:0;
-  background-color: rgba(0, 0, 0, 0.6); 
+  top: -50px;
+  bottom: 0;
+  left: 1px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   text-align: center;
   padding: 15px;
@@ -314,12 +315,85 @@ margin: 0;
   width: 250px;
   height: 50px;
   position: relative;
-  top:-50px;
-  bottom:0;
-  left:1px;
-  right:0;
-  background-color: rgba(0, 0, 0, 0.6); 
+  top: -50px;
+  bottom: 0;
+  left: 1px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   text-align: center;
   padding: 15px;
 }
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease;
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  animation: scaleUp 0.3s ease;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal input,
+.modal textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.modal textarea {
+  resize: none;
+  min-height: 60px;
+}
+
+
+
+.modal .submit-btn {
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal .submit-btn:hover {
+  background: #005fd1;
+}
+

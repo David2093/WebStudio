@@ -55,10 +55,30 @@
   </header>
 
   <main class="container main-content">
-    <section class="hero">
-      <h2>Ефективні рішення для<br> вашого бізнесу</h2>
-      <button type="submit">Замовити послугу</button>
-    </section>
+    <div class="hero">
+    <h2>Ефективні рішення для вашого бізнесу</h2>
+    <button id="openModal">Замовити послугу</button>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal">
+        <button class="close-btn" id="closeModal">&times;</button>
+        <h2>Залиште свої дані,ми вам пердзвонимо</h2>
+        <form>
+          <input type="text" placeholder="Ім’я" required>
+          <input type="tel" placeholder="Телефон" required>
+          <input type="email" placeholder="Пошта" required>
+          <textarea placeholder="Коментар"></textarea>
+          <label>
+            <input type="checkbox" required>
+            Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>
+          </label>
+          <button type="submit" class="submit-btn">Відправити</button>
+        </form>
+      </div>
+    </div>
+
+
 
     <section class="features">
       <ul class="features-list">
@@ -667,7 +687,10 @@
           </a></li>
       </ul>
     </div>
+    <div></div>
   </footer>
+<script src="modal.js"></script>
 </body>
+
 
 </html>

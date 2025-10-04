@@ -45,11 +45,11 @@
       <ul class="nav-list">
         <li><a href="#">Студія</a></li>
         <li><a href="#">Портфоліо</a></li>
-        <li><a href="#">Контакти</a></li>
+        <li><a href="#" id="contactBtn">Контакти</a></li>
       </ul>
     </nav>
     <ul class="contact">
-      <li class="email"></li><a href="#">info@devstudio.com</a></li>
+      <li class="email"><a href="#">info@devstudio.com</a></li>
       <li class="phone"><a href="#">+38 096 111 11 11</a></li>
     </ul>
   </header>
@@ -57,26 +57,29 @@
   <main class="container main-content">
     <div class="hero">
       <h2>Ефективні рішення для вашого бізнесу</h2>
-      <button id="openModal">Замовити послугу</button>
+      <button>Замовити послугу</button>
     </div>
 
     <div class="modal-overlay" id="modalOverlay">
       <div class="modal">
         <button class="close-btn" id="closeModal">&times;</button>
-        <h2>Залиште свої дані,ми вам пердзвонимо</h2>
+        <h2>Залиште свої дані, ми вам передзвонимо</h2>
         <form>
           <input type="text" placeholder="Ім’я" required>
           <input type="tel" placeholder="Телефон" required>
           <input type="email" placeholder="Пошта" required>
           <textarea placeholder="Коментар"></textarea>
-          <label>
+          <label class="label">
             <input type="checkbox" required>
-            Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>
+            <span class="checkmark"></span>
+            Погоджуюся з розсилкою та приймаю
+            <a href="#">Умови договору</a>
           </label>
           <button type="submit" class="submit-btn">Відправити</button>
         </form>
       </div>
     </div>
+    
 
 
 

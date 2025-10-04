@@ -113,7 +113,9 @@ nav ul {
 
 
 .hero {
+  height: 600px;
   text-align: center;
+  justify-content: center;
   margin: 50px 0;
   padding: 75px;
   border: 1px;
@@ -439,4 +441,11 @@ h2 {
 
 .form button:hover {
   background: #1976d2;
+}
+
+.label {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

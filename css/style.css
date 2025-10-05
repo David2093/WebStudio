@@ -120,7 +120,10 @@ nav ul {
   padding: 75px;
   border: 1px;
   border-radius: 4px;
-  background-color: #2F303A;
+  background-image: url("../images/background1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #FFFFFF;
 }
 
@@ -449,3 +452,4 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
 }
+

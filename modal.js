@@ -1,9 +1,9 @@
-  const openModalBtn = document.getElementById('contactBtn'); // Тепер Контакти
+  const openModalBtn = document.getElementById('contactBtn');
   const modalOverlay = document.getElementById('modalOverlay');
   const closeModalBtn = document.getElementById('closeModal');
 
   openModalBtn.addEventListener('click', (e) => {
-    e.preventDefault(); // щоб посилання не прокручувало сторінку
+    e.preventDefault();
     modalOverlay.style.display = 'flex';
   });
 

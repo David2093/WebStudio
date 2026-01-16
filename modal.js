@@ -1,18 +1,23 @@
-  const openModalBtn = document.getElementById('contactBtn');
-  const modalOverlay = document.getElementById('modalOverlay');
-  const closeModalBtn = document.getElementById('closeModal');
 
-  openModalBtn.addEventListener('click', (e) => {
+document.addEventListener("DOMContentLoaded", () => {
+  const modalOverlay = document.getElementById("modalOverlay");
+  const contactBtn = document.getElementById("contactBtn");
+  const closeModal = document.getElementById("closeModal");
+
+  contactBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    modalOverlay.style.display = 'flex';
+    requestAnimationFrame(() => {
+      modalOverlay.classList.add("active");
+    });
   });
 
-  closeModalBtn.addEventListener('click', () => {
-    modalOverlay.style.display = 'none';
+  closeModal.addEventListener("click", () => {
+    modalOverlay.classList.remove("active");
   });
 
-  modalOverlay.addEventListener('click', (e) => {
+  modalOverlay.addEventListener("click", (e) => {
     if (e.target === modalOverlay) {
-      modalOverlay.style.display = 'none';
+      modalOverlay.classList.remove("active");
     }
   });
+});
